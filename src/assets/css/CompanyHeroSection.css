@@ -1,0 +1,37 @@
+.hero-section-company {
+  position: relative;
+  background-image: url("../../assets/img/1\ \(39\).webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.hero-section .company-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.55); /* dark overlay */
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  .hero-section .company-overlay {
+    padding: 2rem 1rem;
+  }
+
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}

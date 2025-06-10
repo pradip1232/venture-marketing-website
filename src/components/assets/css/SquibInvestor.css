@@ -1,0 +1,51 @@
+.squib-investor-section {
+  /* background: #fff; */
+  background-image: url('../../../assets/img/1\ \(29\).webp');
+  color: #1a1a1a;
+}
+
+.investor-highlight {
+  color: #f5a623;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.investor-subtitle {
+  font-style: italic;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.info-box.dark {
+  background: #001f2f;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.investor-box {
+  background: white;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.investor-box:hover {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .info-box.dark {
+    padding: 1.5rem 1rem;
+  }
+
+  .investor-box {
+    font-size: 0.9rem;
+  }
+}

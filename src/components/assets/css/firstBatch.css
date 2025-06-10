@@ -1,0 +1,108 @@
+.first-batch-section {
+  background-color: #fff;
+}
+
+/* Custom card width for 5 per row */
+.custom-card {
+  flex: 0 0 19%;
+  max-width: 19%;
+  min-width: 120px;
+}
+
+/* Slot card styles */
+.slot-card {
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding: 25px 15px;
+  height: 130px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.locked-card {
+  background-color: #eee;
+  position: relative;
+  cursor: pointer;
+}
+
+.lock-icon {
+  font-size: 1.5rem;
+}
+
+.locked-text {
+  margin-top: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.locked-card:hover .hover-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color: orange;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.next-card {
+  background-color: #ffc107;
+  color: #000;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.building-card {
+  background-color: #1a1a3d;
+  color: #fff;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* Image styling (optional if image is shown) */
+.production-image {
+  max-height: 220px;
+  object-fit: contain;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .custom-card {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .slot-card {
+    height: auto;
+    padding: 20px;
+  }
+}

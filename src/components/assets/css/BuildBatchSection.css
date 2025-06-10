@@ -1,0 +1,43 @@
+.build-batch-section .subtitle {
+  font-family: "Cursive", sans-serif;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.right-sidebg-img-building {
+    background-image: url("../../../assets/img/1\ \(16\).webp");
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.image-wrapper img {
+  border-radius: 12px;
+}

@@ -1,0 +1,30 @@
+.join-factory-section {
+  background-color: #ffffff;
+}
+
+.join-card {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.join-card:hover {
+  transform: translateY(-5px);
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive Text Centering */
+@media (max-width: 767.98px) {
+  .button-wrapper {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+}

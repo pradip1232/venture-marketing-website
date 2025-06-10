@@ -1,0 +1,38 @@
+.startup-assembly-section {
+  background-color: #f8f9fa;
+}
+
+.assembly-text-box {
+  background-color: #122a44;
+  border-radius: 8px;
+}
+
+.assembly-text-box h5 {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.assembly-text-box p {
+  color: #dfe6f1;
+  font-size: 0.95rem;
+}
+
+.assembly-img {
+  max-height: 280px;
+  width: 48%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .assembly-img {
+    width: 100%;
+    max-height: 250px;
+  }
+
+  .assembly-text-box {
+    padding: 20px;
+    text-align: center;
+  }
+}

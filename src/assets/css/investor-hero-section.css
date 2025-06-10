@@ -1,0 +1,35 @@
+.investor-hero-section {
+  background-image: url("../img/1\ \(9\).webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 80px; 
+  padding-bottom: 60px; */
+  height: 100vh;
+  position: relative;
+}
+
+.investor-hero-section .investor-overlay {
+  /* background: rgba(0, 0, 0, 0.5); darken for text visibility */
+  padding: 60px 0;
+}
+.meeting-img-investor {
+  margin-top: 9rem;
+}
+.investor-hero-section h1,
+.investor-hero-section h3,
+.investor-hero-section p {
+  animation: fadeInUp 1s ease;
+}
+
+/* Optional simple animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

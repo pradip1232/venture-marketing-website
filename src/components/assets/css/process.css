@@ -1,0 +1,29 @@
+.process-section {
+  background-color: #fff;
+}
+
+.bulb-img-overlay {
+  position: absolute;
+  top: -2px;
+  left: -46px;
+  width: 192px;
+  height: 168px;
+  height: auto;
+  z-index: 2;
+}
+
+.process-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.process-list li {
+  background-color: #f1f3f5;
+  border-left: 5px solid orange;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+  border-radius: 4px;
+}

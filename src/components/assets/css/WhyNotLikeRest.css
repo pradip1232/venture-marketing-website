@@ -1,0 +1,33 @@
+.why-not-section {
+  background-color: #fff;
+  color: #333;
+}
+
+.highlighted {
+  color: #f5a623; /* orange-yellow highlight */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.italic-subtitle {
+  font-style: italic;
+  color: #444;
+  font-size: 1.1rem;
+  margin-top: 0.25rem;
+}
+
+.why-not-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .italic-subtitle {
+    font-size: 1rem;
+  }
+
+  .why-not-section {
+    padding: 2rem 1rem;
+  }
+}
