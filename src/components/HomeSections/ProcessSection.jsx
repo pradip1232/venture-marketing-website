@@ -19,14 +19,14 @@ const ProcessSection = () => {
             <li>The outcome? Success-ready enterprises.</li>
           </ul>
 
-          <p className="text-muted">
+          <p className="text-mutedddd">
             At Squib, every startup is manufactured like a product — with
             experience, logic, and a whole lot of personal skin in the game.
           </p>
-          <p className="text-muted mb-4">
+          <p className="text-mutedddd mb-4">
             No spray-and-pray. No surface-level advice.
           </p>
-          <p className="text-muted">
+          <p className="text-mutedddd">
             We co-build real, revenue-generating businesses — from 0 to first
             revenue, first round, and long-term growth.
           </p>
@@ -44,7 +44,7 @@ const ProcessSection = () => {
           </div>
 
           <div className="mt-3">
-            <button className="btn btn-outline-dark rounded-pill px-4 py-2">
+            <button className="btn btn-outline-darkk rounded-pilll px-4 py-2">
               Know More About the Process
             </button>
           </div>

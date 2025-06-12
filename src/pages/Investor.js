@@ -17,10 +17,10 @@ const Investor = () => {
                 <div className="investor-overlay">
                     <Container>
                         <Row className="align-items-center">
-                            <Col md={6} className="mb-4 mb-md-0">
+                            <Col md={5} className="mb-4 mb-md-0">
                                 <img src={mm} alt="Meeting" className="img-fluid rounded shadow meeting-img-investor"  />
                             </Col>
-                            <Col md={6}>
+                            <Col md={6} className='hero-text-invetsor-colmn'>
                                 <h1 className="text-white fw-bold">We Manufacture Businesses</h1>
                                 <h3 className="text-white fw-semibold mb-3">You’d Actually Want to Invest In</h3>
                                 <p className="text-white mb-4">

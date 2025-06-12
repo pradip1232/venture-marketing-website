@@ -3,6 +3,8 @@ import React from 'react'
 import "../assets/css/CompanyHeroSection.css";
 import Navbar from '../components/Navbar';
 import StartupLoop from '../components/CompanySections/StartupLoop';
+import BreakingLoop from '../components/CompanySections/BreakingLoop';
+import ValuesSlider from '../components/CompanySections/ValuesSlider';
 // import heroImg from "../assets/hero-banner.png"; // Use your actual image path
 
 
@@ -30,6 +32,10 @@ const Company = () => {
 
             <StartupLoop />
 
+
+            <BreakingLoop />
+
+            <ValuesSlider />
         </>
     )
 }

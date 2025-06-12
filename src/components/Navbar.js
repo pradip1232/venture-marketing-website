@@ -5,7 +5,7 @@ import logo from '../assets/img/1 (33).webp';
 
 const Navbar = () => {
     return (
-        <nav className="custom-navbar navbar navbar-expand-lg text-white ">
+        <nav className="custom-navbar navbar navbar-expand-lg text-white border-bottom">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand logo-text">
                     <img src={logo} alt="Logo" />

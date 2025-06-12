@@ -1,7 +1,26 @@
 .machinery-section {
   background-color: #ffffff;
 }
+.machinery-section h6 {
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 180, 0, 1);
+}
 
+.machinery-section h2 {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(89, 89, 89, 1);
+}
 .card-box {
   position: relative;
   border-radius: 10px;
@@ -57,7 +76,7 @@
 }
 
 .card-box {
-  height: 330px;
+  height: 294px;
   border-radius: 16px;
   position: relative;
 }
@@ -77,5 +96,5 @@
 .card-content {
   z-index: 3;
   width: 90%;
-  text-align: left;
+  text-align: center;
 }

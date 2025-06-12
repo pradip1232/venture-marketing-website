@@ -11,9 +11,9 @@ const FactorySlots = () => {
         <div className="row align-items-center justify-content-center">
           {/* Left Text */}
           <div className="col-md-6 mb-4 mb-md-0 fade-in-left">
-            <h6 className="text-warning">FACTORY SLOTS ARE LIMITED</h6>
-            <p className="fw-bold mb-1">We will build with</p>
-            <p className="fw-bold text-dark mb-2">
+            <h6 className="text-warningg">FACTORY SLOTS ARE LIMITED</h6>
+            <p className="fw-boldde mb-1">We will build with</p>
+            <p className="fw-boldde text-dark mb-2">
               10 High-Conviction Founders
             </p>
             <p>

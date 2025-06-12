@@ -14,7 +14,7 @@ const EcosystemSection = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          minHeight: "100vh", // ensures full screen height
+          minHeight: "80vh", // ensures full screen height
           width: "100%",
         }}
       >
@@ -35,7 +35,14 @@ const EcosystemSection = () => {
       {/* SECTION 2 - ONE ECOSYSTEM */}
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-md-6 mb-4 mb-md-0">
+          <div
+            className="col-md-5 mb-4 mb-md-0"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "flex-end",
+            }}
+          >
             <img
               src={ecosystemImg}
               alt="ecosystem"
@@ -43,10 +50,10 @@ const EcosystemSection = () => {
             />
           </div>
           <div className="col-md-6">
-            <h5 className="text-warning fw-semibold">
+            <h5 className="text-warningg ecosystem-heading fw-semifffbold">
               ONE ECOSYSTEM. MULTIPLE TOUCHPOINTS.
             </h5>
-            <p className="fst-italic text-secondary">
+            <p className="fst-italicc ecosystem-capital text-secondaryy">
               Capital, Knowledge, Support — All In One Place
             </p>
             <p>

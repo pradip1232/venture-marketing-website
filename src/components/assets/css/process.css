@@ -1,7 +1,15 @@
 .process-section {
   background-color: #fff;
 }
-
+.process-section .text-secondary {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  padding: 10px 0 20px 200px;
+}
 .bulb-img-overlay {
   position: absolute;
   top: -2px;
@@ -20,10 +28,56 @@
 
 .process-list li {
   background-color: #f1f3f5;
-  border-left: 5px solid orange;
+  border-left: 5px solid rgba(255, 180, 0, 1);
   padding: 10px 15px;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 161%;
+  letter-spacing: 0%;
   color: #333;
-  border-radius: 4px;
+  border-radius: 0px;
 }
+
+.process-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+.process-section button {
+  position: relative;
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #1f2a44 3.2%, #b3b9c4 93.2%);
+  border-image-slice: 1;
+  border-radius: 6px; /* ✅ Border radius added */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ✅ Subtle shadow */
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.process-section button::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  border-radius: 6px; /* Match the button radius */
+}
+

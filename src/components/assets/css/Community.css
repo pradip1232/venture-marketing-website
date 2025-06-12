@@ -3,9 +3,21 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  background-image: url("../../../assets/img/1\ \(10\).webp");
+  background-image: url("../../../assets/img/HERO\ IMG\ \ \(2\).webp");
 }
 
+.community-section .container h3 {
+  font-family: Noto Sans Tamil;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+}
+.community-section .container {
+  margin-top: 15rem;
+}
 .community-desc {
   max-width: 700px;
   font-size: 1.1rem;

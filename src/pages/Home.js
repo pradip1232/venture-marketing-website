@@ -21,16 +21,20 @@ const Home = () => {
                 <Navbar />
 
                 {/* Hero content */}
-                <div className="hero-content text-white text-center d-flex flex-column justify-content-center align-items-center">
-                    <h1 className="display-4 fw-bold mb-2">Welcome to Squib</h1>
+                <div className="hero-content text-white text-centerr d-flex flex-column justify-content-centerr align-items-centerr">
+                    <h1 className="display-4 fw-bold mb-2 d-flex align-items-center">
+                        Welcome to Squib
+                        <hr className="flex-grow-1 ms-3 my-0" style={{ color: "white", width: "10rem" }} />
+                    </h1>
+
                     <h2 className="h3 mb-4">
                         The Factory of <span className="text-warning">Future Unicorns</span>
                     </h2>
-                    <p className="mb-4 px-3">
+                    <p className="mb-4 ">
                         India's next big businesses are being assembled here — <br />
                         One bold idea at a time.
                     </p>
-                    <button className="btn btn-warning text-dark fw-semibold px-4 py-2">
+                    <button className="btn btn-warningw text-dark fw-semiboldd px-4 py-2">
                         Explore the Factory
                     </button>
                 </div>

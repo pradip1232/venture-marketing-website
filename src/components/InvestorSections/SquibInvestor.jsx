@@ -7,13 +7,12 @@ import ii from "../../assets/img/1 (29).webp";
 const SquibInvestor = () => {
   return (
     <section className="squib-investor-section py-5">
-      <Container>
-        <div className="text-center mb-4">
-          <h6 className="investor-highlight">
-            WHAT YOU GET AS A SQUIB INVESTOR
-          </h6>
-          <h5 className="investor-subtitle">Our Output Is Your Edge.</h5>
-        </div>
+      <div className="text-center mb-4">
+        <h6 className="investor-highlight">WHAT YOU GET AS A SQUIB INVESTOR</h6>
+        <h5 className="investor-subtitle">Our Output Is Your Edge.</h5>
+      </div>
+      <Container fluid className="quib-investor-section-row">
+        <div className="container">
         <Row className="align-items-center">
           <Col md={6} className="mb-4 mb-md-0">
             <div className="info-box dark">
@@ -47,10 +46,10 @@ const SquibInvestor = () => {
             />
           </Col> */}
         </Row>
+        </div>
       </Container>
     </section>
   );
 };
 
 export default SquibInvestor;
-    

@@ -23,7 +23,7 @@ const JoinFactorySection = () => {
               <img
                 src={startupImage}
                 alt="Startup"
-                className="img-fluid w-100 rounded"
+                className="img-fluid w-100 roundedd"
               />
               <div className="button-wrapper">
                 <button className="btn btn-light">Join as Startup</button>
@@ -37,7 +37,7 @@ const JoinFactorySection = () => {
               <img
                 src={investorImage}
                 alt="Investor"
-                className="img-fluid w-100 rounded"
+                className="img-fluid w-100 roundedd"
               />
               <div className="button-wrapper">
                 <button className="btn btn-light">Join as Investor</button>

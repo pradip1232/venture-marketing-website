@@ -1,18 +1,26 @@
 .why-not-section {
   background-color: #fff;
   color: #333;
+  margin-top: 4rem !important;
 }
 
 .highlighted {
-  color: #f5a623; /* orange-yellow highlight */
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  color: rgba(255, 180, 0, 1); /* orange-yellow highlight */
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
 }
+.why-not-section .italic-subtitle {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
 
-.italic-subtitle {
-  font-style: italic;
-  color: #444;
-  font-size: 1.1rem;
   margin-top: 0.25rem;
 }
 

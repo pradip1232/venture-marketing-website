@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/firstBatch.css";
 import productionImg from "../../assets/img/7 1.png"; // update as needed
-
+import ll from "../../assets/img/material-symbols-light_lock-outline.png";
 const FirstBatch = () => {
   const slots = Array(10).fill("locked");
   slots[4] = "next";
@@ -22,7 +22,7 @@ const FirstBatch = () => {
 
         <div className="row gx-3 gy-3 align-items-start">
           {/* Card Grid - Left */}
-          <div className="col-lg-9">
+          <div className="col-lg-9 m-0">
             <div className="d-flex flex-wrap justify-content-between gap-1">
               {slots.map((slot, index) => (
                 <div key={index} className="custom-card">
@@ -37,7 +37,9 @@ const FirstBatch = () => {
                   >
                     {slot === "locked" && (
                       <>
-                        <span className="lock-icon">🔒</span>
+                        {/* <span className="lock-icon">🔒 </span> */}
+                        <img src={ll} className="lock-icon" />
+
                         <p className="locked-text">Slot Locked</p>
                         <div className="hover-text">Will you be next?</div>
                       </>

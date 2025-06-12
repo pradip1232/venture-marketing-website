@@ -1,0 +1,49 @@
+.values-section {
+  background-color: #fff;
+  color: #111;
+}
+
+.values-section .italic-heading {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.values-section h5 {
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 180, 0, 1);
+}
+
+
+
+.value-icon {
+  font-size: 2.5rem;
+  color: #f5a623;
+  margin-bottom: 15px;
+}
+
+.value-title {
+  font-weight: bold;
+  color: #f5a623;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.value-text {
+  font-size: 0.95rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #aaa;
+}

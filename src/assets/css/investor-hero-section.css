@@ -1,5 +1,5 @@
 .investor-hero-section {
-  background-image: url("../img/1\ \(9\).webp");
+  background-image: url("../img/HERO\ IMG\ \ \(4\).webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,15 @@
 }
 .meeting-img-investor {
   margin-top: 9rem;
+  width: 432px!important;
+  height: 391px!important;
 }
+
+
+.hero-text-invetsor-colmn {
+  margin-top: 50px!important;
+}
+
 .investor-hero-section h1,
 .investor-hero-section h3,
 .investor-hero-section p {

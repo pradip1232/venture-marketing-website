@@ -6,11 +6,11 @@ import rightImage from "../../assets/img/1 (36).webp";
 const StartupAssemblySection = () => {
   return (
     <section className="startup-assembly-section py-5">
-      <div className="container">
-        <div className="row align-items-center g-4">
+      <div className="container-fluid p-0">
+        <div className="row align-items-center g-2">
           {/* Left Text Box */}
-          <div className="col-lg-5">
-            <div className="assembly-text-box p-4 text-white">
+          <div className="col-lg-6 m-0">
+            <div className="assembly-text-box  text-white">
               <h5 className="fw-bold text-uppercase">
                 THIS IS NOT A DEAL FLOW MACHINE. IT’S A STARTUP ASSEMBLY LINE —
                 BUT SMARTER.
@@ -36,8 +36,8 @@ const StartupAssemblySection = () => {
           </div>
 
           {/* Right Images */}
-          <div className="col-lg-7">
-            <div className="d-flex flex-wrap justify-content-center gap-3">
+          <div className="col-lg-6 m-0">
+            <div className="d-flex flex-wrap justify-content-center gap-1">
               <img
                 src={leftImage}
                 alt="Startup Process"

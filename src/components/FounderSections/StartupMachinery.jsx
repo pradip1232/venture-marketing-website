@@ -53,13 +53,13 @@ const StartupMachinery = () => {
   return (
     <section className="machinery-section py-5">
       <div className="container text-center">
-        <h6 className="text-warning">OUR STARTUP MACHINERY</h6>
+        <h6 className="text-warningg">OUR STARTUP MACHINERY</h6>
         <h2 className="mb-5 text-muted font-italic">
           Your Dream. Our Factory Floor.
         </h2>
         <div className="row justify-content-center">
           {machineryItems.map((item, index) => (
-            <div className="col-12 col-sm-6 col-lg-4 mb-4" key={index}>
+            <div className="col-12 col-sm-6 col-lg-3 mb-4" key={index}>
               <div className="card-box position-relative overflow-hidden">
                 <img src={item.img} alt={item.title} className="img-fluid w-100 h-100 object-cover" />
                 <div className="card-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>

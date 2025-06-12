@@ -1,0 +1,64 @@
+.breaking-loop {
+  background-color: #fff;
+  color: #111;
+}
+.breaking-loop h5 {
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 180, 0, 1);
+}
+
+.breaking-loop h3 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.breaking-loop .italic-textt {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+
+  color: #444;
+}
+
+.description {
+  font-size: 0.95rem;
+  max-width: 800px;
+}
+
+.image-wrapper {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.loop-img {
+  max-width: 60%;
+  height: 60%;
+}
+
+@media (max-width: 768px) {
+  .breaking-loop h3 {
+    font-size: 1.25rem;
+  }
+
+  .italic-text {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}

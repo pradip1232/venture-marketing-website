@@ -8,7 +8,7 @@ const FoundersExpertsSection = () => {
     <section className="founders-section py-5">
       <div className="container">
         <div className="text-center mb-4">
-          <h5 className="text-warning fw-semibold">BUILT FOR FOUNDERS & EXPERTS</h5>
+          <h5 className="text-warningg fw-semiboldd">BUILT FOR FOUNDERS & EXPERTS</h5>
           <p className="fst-italic section-subtitle">
             Not Just Connections. Real Collaborations.
           </p>

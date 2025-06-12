@@ -11,14 +11,18 @@ const BuildBatchSection = () => {
         <em className="subtitle">The Assembly Line Is On</em>
       </div>
 
-      <div className="row align-items-center g-4">
+      <div className="row align-items-stretch g-4">
         <div className="col-lg-6 col-12 fade-in-left">
-          <div className="image-wrapper shadow-sm rounded overflow-hidden">
-            <img src={buildLeft} alt="Build Left" className="img-fluid w-100" />
+          <div className="image-wrapper shadow-sm rounded overflow-hidden h-100">
+            <img
+              src={buildLeft}
+              alt="Build Left"
+              className="img-fluid w-100 h-100 object-fit-cover"
+            />
           </div>
         </div>
         <div className="col-lg-6 col-12 fade-in-right">
-          <div className="bg-dark text-white p-4 rounded-4 shadow-sm text-center right-sidebg-img-building">
+          <div className="bg-dark text-white p-4 rounded-4 shadow-sm text-center h-100 right-sidebg-img-building d-flex flex-column justify-content-center">
             <h5 className="fw-bold">WE’RE CO-BUILDING THE 2025 BATCH</h5>
             <p className="mb-1">
               and the earlier you plug in, the more upside, context, and
@@ -29,9 +33,9 @@ const BuildBatchSection = () => {
               that’s not pushing volume. We’re shipping ventures built to scale
               — and made to return.
             </p>
-            <button className="btn btn-light fw-semibold mt-3 px-4">
+            {/* <button className="btn btn-light fw-semibold mt-3 px-4">
               Let’s Talk
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

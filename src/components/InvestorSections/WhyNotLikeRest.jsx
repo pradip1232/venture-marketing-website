@@ -6,7 +6,7 @@ import cc from "../../assets/img/1 (42).webp";
 
 const WhyNotLikeRest = () => {
   return (
-    <section className="why-not-section py-5 mt-5">
+    <section className="why-not-section py-5 ">
       <Container>
         <div className="text-center mb-4">
           <h6 className="highlighted">WHY WE’RE NOT LIKE THE REST</h6>

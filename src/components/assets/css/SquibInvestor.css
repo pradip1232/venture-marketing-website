@@ -1,27 +1,33 @@
-.squib-investor-section {
+.quib-investor-section-row {
   /* background: #fff; */
-  background-image: url('../../../assets/img/1\ \(29\).webp');
+  background-image: url("../../../assets/img/1\ \(29\).webp");
   color: #1a1a1a;
 }
 
 .investor-highlight {
   color: #f5a623;
-  font-weight: bold;
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
 }
 
 .investor-subtitle {
-  font-style: italic;
-  color: #555;
-  margin-top: 0.25rem;
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
 }
 
 .info-box.dark {
-  background: #001f2f;
+  background: rgba(31, 42, 68, 0.77);
   color: white;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 

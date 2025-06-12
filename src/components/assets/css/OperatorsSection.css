@@ -18,7 +18,14 @@
   flex: 1;
   text-align: center;
 }
-
+.grid-item p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: center;
+}
 .section-image {
   width: 100%;
   max-width: 350px;

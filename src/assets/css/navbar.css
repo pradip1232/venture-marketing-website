@@ -1,3 +1,11 @@
+.nepar {
+  background-color: #0f1b3d;
+  /* min-height: 100vh; */
+}
+.custom-navbar {
+  padding: 8px 49px !important;
+}
+
 /* .custom-navbar {
   background-image: url("../img/1 (11).webp");
   background-size: cover;
@@ -19,8 +27,12 @@
 }
 
 .navbar-nav .nav-link {
-  color: white;
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .navbar-nav .nav-link:hover {
