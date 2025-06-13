@@ -1,7 +1,43 @@
-.build-batch-section .subtitle {
+/* .build-batch-section .subtitle {
   font-family: "Cursive", sans-serif;
   font-size: 1.2rem;
   color: #555;
+} */
+.build-batch-section h6 {
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffb400;
+}
+.build-batch-section em {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #595959;
+}
+
+.build-batch-section h5 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 111.00000000000001%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.build-batch-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .fade-in-left {
@@ -12,8 +48,12 @@
   animation: fadeInRight 1s ease-in-out;
 }
 
+.build-batch-section .right-sidebg-img-building {
+  padding: 0 5rem;
+}
+
 .right-sidebg-img-building {
-    background-image: url("../../../assets/img/1\ \(16\).webp");
+  background-image: url("../../../assets/img/1\ \(16\).webp");
 }
 
 @keyframes fadeInLeft {

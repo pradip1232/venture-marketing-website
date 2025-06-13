@@ -1,7 +1,7 @@
 .why-not-section {
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #333;
-  margin-top: 4rem !important;
+  margin-top: 6rem !important;
 }
 
 .highlighted {
@@ -25,9 +25,13 @@
 }
 
 .why-not-section p {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #444;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+
+  color: rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 768px) {

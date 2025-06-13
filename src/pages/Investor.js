@@ -21,10 +21,10 @@ const Investor = () => {
                                 <img src={mm} alt="Meeting" className="img-fluid rounded shadow meeting-img-investor"  />
                             </Col>
                             <Col md={6} className='hero-text-invetsor-colmn'>
-                                <h1 className="text-white fw-bold">We Manufacture Businesses</h1>
-                                <h3 className="text-white fw-semibold mb-3">You’d Actually Want to Invest In</h3>
+                                <h1 className="text-white fw-boldd">We Manufacture Businesses</h1>
+                                <h3 className="text-white fw-semiddbold mb-3">You’d Actually Want to Invest In</h3>
                                 <p className="text-white mb-4">
-                                    At Squib, you don’t scroll through 100 half-baked decks. You get a handful of high-readiness ventures — built with us, vetted by us, and backed by real skin in the game.
+                                   <strong> At Squib </strong> , you don’t scroll through 100 half-baked decks. You get a handful of high-readiness ventures — built with us, vetted by us, and backed by real skin in the game.
                                 </p>
                                 <Button variant="light" className="rounded-pill px-4 py-2 shadow-sm">
                                     Join the Investor Network

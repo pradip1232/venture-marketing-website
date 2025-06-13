@@ -1,0 +1,124 @@
+.hero-sectionfounder {
+  background-image: url("../../assets/img/HERO\ IMG\ \ \(5\).webp");
+  /* padding: 60px 0; */
+  color: white;
+  height: 95vh;
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.hero-sectionfounder h6 {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(89, 89, 89, 1);
+  margin-top: 72px;
+}
+
+.hero-sectionfounder h5 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.hero-small-img {
+  /* max-width: 100%; */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  /* height: 100%; */
+
+  width: 432.4697265625px;
+  height: 391px;
+
+  border-radius: 10px;
+  border-width: 1px;
+
+  margin-top: 12rem;
+}
+
+.hero-heading {
+  font-family: Noto Sans Tamil;
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  margin-top: 19rem;
+  /* margin-bottom: 3rem; */
+}
+
+.hero-heading .text-highlight {
+  font-family: Noto Sans Tamil;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.hero-desc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.hero-footer {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.hero-footer-desc {
+  font-size: 1rem;
+  color: #aaa;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.btn-light.btn-outline-dark {
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-light.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-sectionfounder {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-footer {
+    font-size: 1rem;
+  }
+
+  .hero-footer-desc {
+    font-size: 0.95rem;
+  }
+
+  .hero-small-img {
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 1rem;
+  }
+}

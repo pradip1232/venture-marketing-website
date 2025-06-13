@@ -15,21 +15,58 @@
 }
 .meeting-img-investor {
   margin-top: 9rem;
-  width: 432px!important;
-  height: 391px!important;
+  width: 432px !important;
+  height: 391px !important;
 }
-
 
 .hero-text-invetsor-colmn {
-  margin-top: 50px!important;
+  margin-top: 50px !important;
 }
 
+.investor-hero-section h1 {
+  font-family: Noto Sans Tamil;
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 11rem;
+}
+.investor-hero-section h3 {
+  font-family: Noto Sans Tamil;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 2px;
+}
+.investor-hero-section p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 25px;
+}
 .investor-hero-section h1,
 .investor-hero-section h3,
 .investor-hero-section p {
   animation: fadeInUp 1s ease;
 }
 
+.investor-hero-section button {
+  margin-top: 5rem;
+  border: 2px solid rgba(179, 185, 196, 1);
+
+  /* border-image-source: linear-gradient(90deg, #1f2a44 3.2%, #b3b9c4 93.2%); */
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
 /* Optional simple animation */
 @keyframes fadeInUp {
   from {

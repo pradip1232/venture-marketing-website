@@ -1,5 +1,25 @@
 .join-factory-section {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+}
+
+.join-factory-section h5 {
+  font-family: Noto Serif Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 180, 0, 1);
+}
+
+.join-factory-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 131%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
 }
 
 .join-card {

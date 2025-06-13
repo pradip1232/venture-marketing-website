@@ -21,29 +21,55 @@
   color: rgba(255, 180, 0, 1);
 }
 
-
-
 .value-icon {
-  font-size: 2.5rem;
-  color: #f5a623;
+  /* font-size: 2.5rem; */
+  /* color: #f5a623; */
   margin-bottom: 15px;
+  background-color: #1f2a44;
+  border-radius: 50%;
+  padding: 11px;
+  object-fit: contain;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  width: 95px;
 }
 
 .value-title {
-  font-weight: bold;
-  color: #f5a623;
-  margin-bottom: 10px;
-  font-size: 1rem;
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
   text-transform: uppercase;
+  color: #ffb400;
+  text-transform: uppercase;
+}
+.value-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .value-text {
-  font-size: 0.95rem;
-  color: #333;
-  max-width: 600px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: center;
+
   margin: 0 auto;
 }
 
-.carousel-indicators [data-bs-target] {
+.values-section .value-icon .carousel-indicators [data-bs-target] {
   background-color: #aaa;
 }

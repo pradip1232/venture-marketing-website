@@ -7,37 +7,36 @@ const StartupAssemblySection = () => {
   return (
     <section className="startup-assembly-section py-5">
       <div className="container-fluid p-0">
-        <div className="row align-items-center g-2">
+        <div className="row g-0 assembly-row align-items-stretch">
           {/* Left Text Box */}
-          <div className="col-lg-6 m-0">
-            <div className="assembly-text-box  text-white">
+          <div className="col-lg-6 p-0 d-flex">
+            <div className="assembly-text-box text-white">
               <h5 className="fw-bold text-uppercase">
                 THIS IS NOT A DEAL FLOW MACHINE. IT’S A STARTUP ASSEMBLY LINE —
                 BUT SMARTER.
               </h5>
-              <p className="mt-3 mb-2">
-                We don’t curate deals.
-                <br />
+              <p className="mt-3 mb-2">We don’t curate deals.</p>
+              <span className="mb-2">
                 We create them — and we stay accountable throughout.
                 <br />
                 Diligence isn’t an afterthought. It’s built-in.
-              </p>
-              <p className="mb-2">
+              </span>
+              <span className="mb-2">
                 We assemble ventures with high readiness and real momentum.
-              </p>
-              <p className="mb-4">
+              </span>
+              <span className="mb-4">
                 That’s why our investor seats are limited — for those who want
                 to help build, not just bet.
-              </p>
-              <button className="btn btn-light">
+              </span>
+              <button className="btn btn-light m align-self-start">
                 Join the Investor Network
               </button>
             </div>
           </div>
 
           {/* Right Images */}
-          <div className="col-lg-6 m-0">
-            <div className="d-flex flex-wrap justify-content-center gap-1">
+          <div className="col-lg-6 p-0 d-flex">
+            <div className="assembly-image-wrapper">
               <img
                 src={leftImage}
                 alt="Startup Process"

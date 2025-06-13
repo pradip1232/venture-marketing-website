@@ -4,29 +4,33 @@ import Slider from "react-slick";
 import "../assets/css/ValuesSlider.css";
 import { FaUsers, FaBullseye, FaChartLine } from "react-icons/fa";
 
+import aa from "../../assets/img/1 (30).webp";
+import bb from "../../assets/img/1 (31).webp";
+import cc from "../../assets/img/1 (32).webp";
+
 const values = [
   {
-    icon: <FaUsers className="value-icon" />,
+    icon: aa,
     title: "COMMUNITY OVER INDIVIDUALISM",
     desc: "We’re cultivating a space where founders, experts, and investors grow together. Not just companies — but ecosystems of support.",
   },
   {
-    icon: <FaBullseye className="value-icon" />,
+    icon: bb,
     title: "PURPOSE-DRIVEN FOUNDERS",
     desc: "We back those who lead with intention, empathy, and long-term conviction.",
   },
   {
-    icon: <FaChartLine className="value-icon" />,
+    icon: cc,
     title: "GRIT OVER GLAMOUR",
     desc: "We help teams chase real traction, not just valuation optics or pitch-ready vanity.",
   },
   {
-    icon: <FaUsers className="value-icon" />,
+    icon: aa,
     title: "LONG-TERM IMPACT",
     desc: "We focus on sustainable business models that solve real-world problems over time.",
   },
   {
-    icon: <FaBullseye className="value-icon" />,
+    icon: aa,
     title: "EMPATHY-FIRST LEADERSHIP",
     desc: "We champion leaders who listen deeply, build trust, and empower others.",
   },
@@ -39,7 +43,7 @@ const ValuesSlider = () => {
     speed: 600,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -63,7 +67,8 @@ const ValuesSlider = () => {
         <p className="mb-3">
           We’re not another venture studio, accelerator, or consulting outfit.
           <br />
-          We exist to build ventures that shape the future — and nurture the people behind them.
+          We exist to build ventures that shape the future — and nurture the
+          people behind them.
         </p>
         <p className="mb-4">At Squib, We stand for</p>
 
@@ -71,7 +76,14 @@ const ValuesSlider = () => {
           {values.map((val, idx) => (
             <div key={idx} className="px-3">
               <div className="value-card text-center p-4 shadow-smm bg-white rounded">
-                {val.icon}
+                <div className="value-icon">
+                  <img
+                    src={val.icon}
+                    alt={val.title}
+                    className="value-icon-img"
+                  />
+                </div>
+
                 <h6 className="value-title mt-3">{val.title}</h6>
                 <p className="value-text">{val.desc}</p>
               </div>
@@ -82,7 +94,8 @@ const ValuesSlider = () => {
         <p className="mt-5">
           We’re not here for shortcuts.
           <br />
-          We’re here to build responsibly — and to create companies that stand the test of time.
+          We’re here to build responsibly — and to create companies that stand
+          the test of time.
         </p>
       </div>
     </section>

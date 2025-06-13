@@ -2,6 +2,20 @@
   background-color: #ffffff;
 }
 
+.founders-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
+.founders-section h6 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
 .founders-section h5 {
   font-family: Noto Sans Tamil;
   font-weight: 500;
@@ -23,7 +37,16 @@
 .info-card {
   background-color: #f1f3f5;
   border-left: 4px solid #f0ad4e;
-  border-radius: 6px;
-  font-size: 1rem;
+  border-radius: 0px;
   color: #333;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
+
+.founders-section img {
+  width: 341px;
+  height: 315px;
 }

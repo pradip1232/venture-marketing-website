@@ -33,10 +33,17 @@
 .loop-box {
   background: #f0f0f0;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 0px;
   align-items: flex-start;
   height: 100%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  border-left: 6px solid #f0ad4e;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .line-bar {

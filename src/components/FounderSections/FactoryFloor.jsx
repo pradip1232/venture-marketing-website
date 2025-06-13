@@ -16,7 +16,7 @@ const FactoryFloor = () => {
   return (
     <section className="factory-floor py-5">
       <div className="container text-center">
-        <h5 className="text-warning fw-bold mb-2">INSIDE THE FACTORY FLOOR</h5>
+        <h5 className="text-warningg fw-boldd mb-2">INSIDE THE FACTORY FLOOR</h5>
         <p className="mb-2 px-md-5">
           <strong>Imagine this:</strong> your raw idea or MVP stuck mid-line is
           the raw material we carefully procure. <br />
@@ -28,26 +28,7 @@ const FactoryFloor = () => {
         </h6>
 
         {/* Timeline */}
-        <div className="row justify-content-center">
-          {/* 1 */}
-          <div className="col-6 col-sm-4 col-md-2 text-center factory-step">
-            {/* <img src={icon1} alt="Step 1" className="factory-icon" /> */}
-            <p className="mb-1 fw-semibold">Product shaping</p>
-            <p className="text-muted small">Market-fit testing</p>
-          </div>
-          {/* 2 */}
-          <div className="col-6 col-sm-4 col-md-2 text-center factory-step">
-            {/* <img src={icon2} alt="Step 2" className="factory-icon" /> */}
-            <p className="mb-1 fw-semibold">Branding</p>
-            <p className="text-muted small">Legal groundwork</p>
-          </div>
-          {/* 3 */}
-          <div className="col-6 col-sm-4 col-md-2 text-center factory-step">
-            {/* <img src={icon3} alt="Step 3" className="factory-icon" /> */}
-            <p className="mb-1 fw-semibold">Hiring</p>
-            <p className="text-muted small">Investor readiness</p>
-          </div>
-        </div>
+       
       </div>
     </section>
   );

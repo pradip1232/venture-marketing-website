@@ -16,22 +16,22 @@ const FoundersExpertsSection = () => {
 
         <div className="row align-items-center">
           {/* Text Content */}
-          <div className="col-md-6 mb-4 mb-md-0">
+          <div className="col-md-5 mb-4 mb-md-0">
             <p>
               Whether you’re a founder looking for wisdom, or a mentor looking
               to make a difference — the Squib community is designed to spark
               meaningful partnerships.
             </p>
 
-            <h6 className="fw-bold mb-3">Get and give:</h6>
+            <h6 className="fw-bolddd mb-3">Get and give:</h6>
             <div className="info-card p-3 mb-3">
               <p className="mb-0">
-                <strong>Founders</strong> get access to operators, advisors & investors.
+              Founders get access to operators, advisors & investors.
               </p>
             </div>
             <div className="info-card p-3">
               <p className="mb-0">
-                <strong>Experts & mentors</strong> get front-row seats to tomorrow’s market
+                Experts & mentors get front-row seats to tomorrow’s market
                 shapers — and a chance to shape them.
               </p>
             </div>
@@ -39,8 +39,8 @@ const FoundersExpertsSection = () => {
 
           {/* Image Grid */}
           <div className="col-md-6 d-flex flex-column flex-md-row gap-3">
-            <img src={img1} className="img-fluid rounded shadow-sm w-100" alt="founders1" />
-            <img src={img2} className="img-fluid rounded shadow-sm w-100 mt-md-0 mt-3" alt="founders2" />
+            <img src={img1} className="img-fluid rounded shadow-sm w-100 mt-5 pt-4" alt="founders1" />
+            <img src={img2} className="img-fluid rounded shadow-sm w-100 mt-md-0 mb-5 pt-4" alt="founders2" />
           </div>
         </div>
       </div>

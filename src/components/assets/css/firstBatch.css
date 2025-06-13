@@ -1,18 +1,42 @@
 .first-batch-section {
   background-color: #fff;
 }
+.first-batch-section h5 {
+  font-family: Noto Sans Tamil;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 180, 0, 1);
+}
 
-/* Custom card width for 5 per row */
+.first-batch-section p span {
+  font-family: Oooh Baby;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 131%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.first-batch-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 152%;
+  letter-spacing: 0%;
+  text-align: center;
+}
 .custom-card {
   flex: 0 0 19%;
   max-width: 19%;
   min-width: 120px;
+  margin-bottom: 2px;
 }
 
-/* Slot card styles */
 .slot-card {
-  background: #f2f2f2;
-  border-radius: 8px;
+  background: rgba(231, 233, 237, 1);
+  border-radius: 12px;
   padding: 25px 15px;
   height: 130px;
   position: relative;
@@ -24,44 +48,51 @@
   background-color: #eee;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
+}
+
+.locked-card:hover {
+  background-color: rgba(255, 180, 0, 1);
 }
 
 .lock-icon {
-  font-size: 1.5rem;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
 .locked-text {
   margin-top: 10px;
-  color: #333;
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-/* Hover effect */
-.locked-card:hover .hover-text {
-  opacity: 1;
-  visibility: visible;
-}
-
-.hover-text {
+/* .hover-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   left: 0;
   right: 0;
-  color: orange;
+  text-align: center;
+  color: rgba(255, 180, 0, 1);
   font-weight: bold;
   opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
+  transition: all 0.4s ease-in-out;
+} */
 
 .next-card {
-  background-color: #ffc107;
+  background-color: rgba(255, 180, 0, 1);
   color: #000;
   height: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .building-card {
@@ -71,16 +102,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
-/* Image styling (optional if image is shown) */
-.production-image {
-  max-height: 220px;
-  object-fit: contain;
-}
-
-/* Responsive Styles */
 @media (max-width: 991px) {
   .custom-card {
     flex: 0 0 30%;
@@ -105,4 +129,51 @@
     height: auto;
     padding: 20px;
   }
+}
+/* .slot-card {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+/* .lock-icon {
+  width: 40px;
+  margin-bottom: 10px;
+} */
+
+/* .locked-text {
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+} */
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../assets/img/blueprint 1.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 12px 20px 12px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 2;
 }
